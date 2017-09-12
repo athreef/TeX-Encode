@@ -1,5 +1,5 @@
 use Test::More;
-skip all => "Work in progress";
+skip_all => "Work in progress";
 use utf8;
 
 use Encode;
