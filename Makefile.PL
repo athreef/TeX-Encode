@@ -23,7 +23,8 @@ my %WriteMakefileArgs = (
     "HTML::Parser" => "3.35",
     "Pod::LaTeX" => "0.56",
     "strict" => 0,
-    "vars" => 0
+    "vars" => 0,
+    "warnings" => 0
   },
   "TEST_REQUIRES" => {
     "Encode" => 0,
@@ -33,8 +34,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => "0.1",
     "blib" => "1.01",
-    "utf8" => 0,
-    "warnings" => 0
+    "utf8" => 0
   },
   "VERSION" => "2.002",
   "test" => {

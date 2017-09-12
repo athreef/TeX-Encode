@@ -1,4 +1,6 @@
 package TeX::Encode::charmap;
+use warnings;
+use strict;
 
 =head1 NAME
 
