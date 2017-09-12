@@ -22,7 +22,6 @@ t/regressions.t
 xt/98coverage.t
 xt/99pod.t
 xt/author/00-compile.t
-xt/author/critic.t
 xt/author/pod-syntax.t
 xt/author/test-version.t
 xt/release/minimum-version.t

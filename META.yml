@@ -13,6 +13,7 @@ build_requires:
   blib: '1.01'
   perl: '5.008'
   utf8: '0'
+  warnings: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
   perl: '5.008'
@@ -50,7 +51,6 @@ requires:
   perl: '5.008'
   strict: '0'
   vars: '0'
-  warnings: '0'
 resources:
   bugtracker: https://github.com/athreef/TeX-Encode/issues
   homepage: https://github.com/athreef/TeX-Encode
@@ -330,10 +330,6 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::Test::MinimumVersion
       name: Test::MinimumVersion
       version: '2.000007'
-    -
-      class: Dist::Zilla::Plugin::Test::Perl::Critic
-      name: Test::Perl::Critic
-      version: '3.001'
     -
       class: Dist::Zilla::Plugin::Test::Version
       name: Test::Version
